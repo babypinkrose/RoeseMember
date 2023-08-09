@@ -1,0 +1,315 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 밑줄 없애기 */
+text-a{
+decoration: none;
+}
+ul {
+    /* 디스크 없애기 */
+    list-style-type: none;
+}
+/* ---------------------------------------------------------- 헤드 ---------------------------------------------------------- */
+header {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 300px;
+    position: relative;
+    font-family: 'S-CoreDream-3Light';
+}
+
+#topmenu {
+    height: 30px;
+    padding-top: 6px;
+    padding-left: 20px;
+    background-color: #eee;
+}
+a:link, a:visited {
+    color: #222;
+    text-decoration: none;
+}
+#topmenu li{
+    border-right: 1px solid #999;
+    float: right;
+}
+#topmenu li:first-child{
+    border: none;
+    padding-right: 250px;
+}
+#topmenu > li > a{
+    display: block;
+    padding: 0px 20px 0px 20px;
+    font-size: 11px;
+}
+#mainLogo {
+    width: 100%;
+}
+
+#logo img {
+
+}
+#logo li{
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myCart{
+    float: left;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; */
+    padding: 220px 0 0 20px;
+}
+
+/* ---------------------------------------------------------- 네브 ---------------------------------------------------------- */
+nav {
+    width: 1920px;
+    height: 50px;
+    margin: 0;
+    font-family: 'S-CoreDream-3Light';
+}
+#mainCategory {
+    width: 150px;
+    padding: 14px 0;
+    font-size : 16px;
+    font-weight: bolder;
+    float: left;
+    text-align: center;
+    background-color: #208d5c;
+}
+#All {
+    color: #fff;
+}
+
+#category_row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+#category_row li {
+    width: 150px;
+    padding: 14px 0;
+    font-size : 16px;
+    font-weight: bolder;
+    float: left;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------- 푸터 ---------------------------------------------------------- */
+#eventAd {
+    position : relative;
+    transform : translateY(-100%);
+    height: 131px;
+    border-bottom: 1px solid #222;
+}
+#eventAd a {
+    margin: 0;
+    padding: 0;
+}
+/* 푸터 하단고정 */
+#wrap{
+    height: 2000px;
+	min-height: 100%;
+	position: relative;
+}
+footer{
+    background-color: #eee;
+	bottom: 0;
+	position: absolute;
+	height: 380px;
+    font-family: 'S-CoreDream-3Light';
+}
+
+footer li {
+    line-height: 30px;
+    float: left;
+    padding: 29px 100px;
+    color: #aaa;
+}
+footer li h1{
+    color: black;
+}
+
+footer img {
+    border-bottom: 1px solid #999;
+}
+/* ----------------------------------------------------로그인 시작---------------------------------------------------------- */
+body {
+    width: 1920px;
+    margin: 0 auto;
+}
+a {
+    font-style: normal;
+}
+em {
+    font-style: normal;
+    top: 6px;
+}
+#cupon {
+    /* 로그인 밑에 쿠폰증정 글씨색깔 */
+    color: #208d5c;
+    font-weight: bolder;;
+}
+#log_body1 {
+    padding-top: 1.7px;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#img_box {
+    width: 1200px;
+}
+#img_box img {
+    width: 1200px;
+}
+#log_body3 {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background: #fff;
+    width: 380px;
+    margin: 150px auto;
+    font-family: 'S-CoreDream-3Light';
+}
+
+#log_container {
+    position: relative;
+    margin: 0px 0px 20px;
+}
+#log_t {
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'S-CoreDream-3Light';
+}
+
+#login_txt {
+    display: block;
+    color: #000;
+    font-size: 1.95em;
+    line-height: 1.4em;
+    font-weight: 550;
+    font-family: 'S-CoreDream-3Light';
+}
+
+#login_txt_s {
+    display: block;
+    margin-top: 30px;
+    color: #000;
+    font-size: 1.15em;
+    line-height: 1.4em;
+    font-weight: 500;
+    font-family: 'S-CoreDream-3Light';
+}
+#idpw_box {
+    position: relative;
+    margin-top: 30px;
+}
+.idpw {
+    position: relative;
+    display: block;
+    background: #fff;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: normal;
+    text-align: left;
+    font-family: 'S-CoreDream-3Light';
+}
+.idpw input {
+    display: block;
+    padding: 15px;
+    width: 380px;
+    background: #fff;
+    color: #000;
+    font-size: 1.2em;
+    border: none;
+    text-align: left;
+    vertical-align: middle;
+    outline: medium none;
+    font-weight: normal;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    font-family: 'S-CoreDream-3Light';
+}
+#login_btn{
+    display: block;
+    background: #208d5c;
+    margin-top: 30px;
+    padding: 17px 0px;
+    border: 1px solid #208d5c;
+    color: #fff;
+    text-align: center;
+    font-size: 1.35em;
+    border-radius: 3px;
+    box-sizing: content-box;
+	width: 100%;
+}
+
+#find_box {
+    display: block;
+    vertical-align: top;
+    margin: 15px 0px 40px;
+    font-size: 1em;
+    line-height: 1.4em;
+    text-align: center;
+    font-family: 'S-CoreDream-3Light';
+}
+.sign_t {
+    display: inline-block;
+    padding: 10px 2%;
+    vertical-align: top;
+    font-size: 1.15em;
+    color: #000;
+}
+#log_SNS {
+    width: 380px;
+    position: relative;
+    display: block;
+    padding: 20px;
+    margin: 0px auto 30px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+#log_kakao {
+    margin-bottom: 20px;
+}
+.log_btn_kakao {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    background: #fae200;
+    text-align: center;
+    font-size: 1.1em;
+    height: 50px;
+    line-height: 50px;
+    color: #111;
+    font-weight: 500;
+    border-radius: 3px;
+}
+#log_kakao img {
+    margin: 14px 10px 0px 5px;
+    border: none;
+    vertical-align: top;
+}
+#log_NaAp {
+    display: inline-block;
+    margin: 20px 0px 20px 20px;
+}
+#log_NaAp a {
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+}
+
+

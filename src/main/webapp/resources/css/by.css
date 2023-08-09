@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    /* 밑줄 없애기 */
+    text-a{
+decoration: none;
+}
+ul {
+    /* 디스크 없애기 */
+    list-style-type: none;
+}
+
+/* ---------------------------------------------------------- 헤드 ---------------------------------------------------------- */
+header {
+    /* background-color: aqua; */
+    width: 1920px;
+    height: 300px;
+    position: relative;
+    font-family: 'S-CoreDream-3Light';
+}
+
+#topmenu {
+    height: 30px;
+    padding-top: 6px;
+    padding-left: 20px;
+    background-color: #eee;
+}
+a:link, a:visited {
+    color: #222;
+    text-decoration: none;
+}
+#topmenu li{
+    border-right: 1px solid #999;
+    float: right;
+}
+#topmenu li:first-child{
+    border: none;
+    padding-right: 250px;
+}
+#topmenu > li > a{
+    display: block;
+    padding: 0px 20px 0px 20px;
+    font-size: 11px;
+}
+#logo li{
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myCart{
+    float: left;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; */
+    padding: 220px 0 0 20px;
+}
+
+/* ---------------------------------------------------------- 네브 ---------------------------------------------------------- */
+nav {
+    height: 50px;
+    margin: 0;
+    font-family: 'S-CoreDream-3Light';
+}
+#mainCategory {
+    width: 150px;
+    padding: 14px 0;
+    font-size : 16px;
+    font-weight: bolder;
+    float: left;
+    text-align: center;
+    background-color: #208d5c;
+}
+#All {
+    color: #fff;
+}
+
+#category_row {
+    /* width: 100vw; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+#category_row li {
+    width: 150px;
+    padding: 14px 0;
+    font-size : 16px;
+    font-weight: bolder;
+    float: left;
+    text-align: center;
+}
+
+
+/* ---------------------------------------------------------- 바디 ---------------------------------------------------------- */
+body {
+    height: 4100px;
+    font-family: 'S-CoreDream-3Light';
+    margin: 0 auto;
+}
+
+#mainContainer {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background: #fff;
+    margin: 0px auto;
+    width:1200px
+}
+
+#category_col {
+    background-color: #ffffff59;
+    height: 450px;
+    font-size : 14px;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 360px;
+
+}
+#category_col li{
+    width: 150px;
+    border-bottom: 1px solid #ccc;
+    padding: 12.2px 0px 12.2px 0px;
+    text-align: center;
+}
+#category_col li:last-child {
+    border: none;
+}
+
+#mainContainer img {
+    border-radius: 10px;
+    float: left;
+    margin: 0 20px 0 20px;
+}
+#mainContainer h1 {
+    padding-left: 20px;
+}
+#mainContainer p {
+    float: left;
+}
+/* 각 판매 이미지 별 클래스 id= main1~7 */
+.mainLists {
+    /* background-color: red; */
+    width: 1200px;
+    height: 550px;
+    .nameDiv {
+        width: 100%;
+        height: 40px;
+    }
+    /* 상품이미지 박스 */
+    .imgContainer {
+        /* background-color: yellow; */
+        width: 1200px;
+        display: flex;
+        align-items: center;
+    }
+    /* 상품이름 DIV */
+    .goodsName {
+        width: 1200px;
+        height: 50px;
+        margin: 70px 20px 20px 20px ;
+        /* background-color: green; */
+    }
+    /* 상품이름중에 제목b */
+    .mainName {
+        height: 30px;
+        font-size: 24px;
+        float: left;
+    }
+    /* 상품이름중에 설명 p */
+    .ps {
+        color: #888;
+        line-height: 43px;
+        height: 30px;
+        font-size: 16px;
+        /* margin: 20px; */
+        float: left;
+        margin-left: 15px;
+    }
+    /* 상품가격 */
+    .price {
+        float: left;
+    }
+    /* 상품 세일 % */
+    .sale {
+        color: #ea00c3;
+    }
+    .price1 {
+        width: 540px;
+        font-size: 21px;
+        float: left; 
+        /* 위 오른쪽 아래 왼쪽 */
+        margin: 10px 0 100px 25px;
+        line-height: 40px;
+    }
+    .price1 s {
+        color: #999;
+    }
+    .price2 {
+        /* background-color: blue; */
+        height: 150px;
+        width: 245px;
+        font-size: 16px;
+        float: left; 
+        line-height: 40px;
+        margin: 10px 34px 50px 21px;
+    }
+    .price3 {
+        font-size: 20px;
+        float: left; 
+        line-height: 10px;
+        margin-left: 20px;
+    }
+    #imgC0 img{
+        width: 260px;
+        height: 260px;
+    }
+    #imgC4 {
+        background-color: #eee;
+    }
+    #imgC6{
+        background-color: #eee;
+    }
+    #imgC8 {
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    /* 1개짜리 상품 글씨 조절 가격 */
+    .goodsOnePrice {
+        line-height: 150px;
+    }
+}
+
+#catIcon {
+    padding-right: 10px;
+}
+
+/* ---------------------------------------------------------- 푸터 ---------------------------------------------------------- */
+#eventAd {
+    position : relative;
+    transform : translateY(-100%);
+    height: 131px;
+    border-bottom: 1px solid #222;
+}
+#eventAd a {
+    margin: 0;
+    padding: 0;
+}
+/* 푸터 하단고정 */
+#wrap{
+    height: 10000px;
+	min-height: 100%;
+	position: relative;
+    width: 1920px;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #eee;
+	bottom: 0;
+	position: absolute;
+	height: 380px;
+    font-family: 'S-CoreDream-3Light';
+}
+footer li {
+    line-height: 30px;
+    float: left;
+    padding: 29px 70px;
+    color: #aaa;
+}
+footer li h1{
+    color: black;
+}
+
+footer img {
+    border-bottom: 1px solid #999;
+}

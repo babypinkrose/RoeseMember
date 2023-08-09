@@ -1,0 +1,398 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 밑줄 없애기 */
+text-a{
+decoration: none;
+}
+ul {
+    /* 디스크 없애기 */
+    list-style-type: none;
+}
+/* ---------------------------------------------------------- 헤드 ---------------------------------------------------------- */
+header {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 300px;
+    position: relative;
+    font-family: 'S-CoreDream-3Light';
+}
+
+#topmenu {
+    height: 30px;
+    padding-top: 6px;
+    padding-left: 20px;
+    background-color: #eee;
+}
+a:link, a:visited {
+    color: #222;
+    text-decoration: none;
+}
+#topmenu li{
+    border-right: 1px solid #999;
+    float: right;
+}
+#topmenu li:first-child{
+    border: none;
+    padding-right: 250px;
+}
+#topmenu > li > a{
+    display: block;
+    padding: 0px 20px 0px 20px;
+    font-size: 11px;
+}
+#mainLogo {
+    width: 100%;
+}
+#logo li{
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myCart{
+    float: left;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; */
+    padding: 220px 0 0 20px;
+}
+
+/* ---------------------------------------------------------- 네브 ---------------------------------------------------------- */
+nav {
+    width: 1920px;
+    height: 50px;
+    margin: 0;
+    font-family: 'S-CoreDream-3Light';
+}
+#mainCategory {
+    width: 150px;
+    padding: 14px 0;
+    font-size : 16px;
+    font-weight: bolder;
+    float: left;
+    text-align: center;
+    background-color: #208d5c;
+}
+#All {
+    color: #fff;
+    
+}
+
+#category_row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+#category_row li {
+    width: 150px;
+    padding: 14px 0;
+    font-size : 16px;
+    font-weight: bolder;
+    float: left;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------- 푸터 ---------------------------------------------------------- */
+#eventAd {
+    position : relative;
+    transform : translateY(-100%);
+    height: 131px;
+    border-bottom: 1px solid #222;
+}
+#eventAd a {
+    margin: 0;
+    padding: 0;
+}
+/* 푸터 하단고정 */
+#wrap{
+    height: 3300px;
+	min-height: 100%;
+	position: relative;
+}
+footer{
+    background-color: #eee;
+	bottom: 0;
+	position: absolute;
+	height: 380px;
+    font-family: 'S-CoreDream-3Light';
+}
+
+footer li {
+    line-height: 30px;
+    float: left;
+    padding: 29px 100px;
+    color: #aaa;
+}
+footer li h1{
+    color: black;
+}
+
+footer img {
+    border-bottom: 1px solid #999;
+}
+/* ----------------------------------------------------마이페이지 시작---------------------------------------------------------- */
+body {
+    width: 1920px;
+    margin: 0 auto;
+    font-family: 'S-CoreDream-3Light';
+}
+em {
+    font-style: normal;
+}
+
+#container {
+    padding: 100px 0 90px;
+    width: 1200px;
+    margin: 0px auto;
+}
+#contents {
+    width: 1200px;
+    font-family: 'S-CoreDream-3Light';
+}
+#contents2{
+    position: relative;
+    width: 1200px;
+    padding-top: 50px;
+    margin: 0px auto;
+    *zoom: 1;
+}
+.name {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'S-CoreDream-3Light';
+}
+.goods {
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'S-CoreDream-3Light';
+    height: 50px;
+}
+.price {
+    display: inline-block;
+    margin: 0px 7px 0px 5px;
+    vertical-align: middle;
+    font-size: 1.1em;
+    color: #777;
+    letter-spacing: -0.02em;
+}
+#youtube {
+    margin: 30px;
+}
+#recipe_box {
+    position: relative;
+    display: block;
+    width: 1200px;
+    margin: 0px auto;
+}
+#recipe_view_container {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+#recipe_view {
+    display: block;
+    width: 840px;
+    margin: 0px auto;
+    text-align: left;
+}
+#zzim {
+    display: block;
+    margin: 20px 1px 35px 0px;
+    text-align: right;
+}
+#recipe_txt_box {
+    overflow: hidden;
+    position: relative;
+    padding: 14px 0px 5px;
+    font-family: 'S-CoreDream-3Light';
+}
+#recipe_txt li {
+    position: relative;
+    display: table;
+    width: 100%;
+    margin-bottom: 60px;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.3em;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+}
+.tit {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0px 0px 0px 25px;
+    width: 200px;
+    font-size: 20px;
+    color: #333;
+    letter-spacing: 0.03em;
+    font-family: 'S-CoreDream-3Light';
+    border: 2px solid #fff;
+    /* float: left; */
+    position: relative;
+    font-weight: bolder;
+}
+.recipe_word li {
+    display: inline-block;
+    color: #666;
+    background: #fff;
+    margin: 0px 4px 10px 0px;
+    padding: 0px 12px;
+    max-width: 110px;
+    font-size: 10px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+.detail{
+    position: relative;
+    display: table;
+    width: 100%;
+    margin-bottom: 60px;
+    color: #666;
+    line-height: 1.3em;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+}
+.detail_list {
+    display: table;
+    vertical-align: top;
+    margin-top: 0px;
+    padding: 0px 0px 21px 0px;
+    font-size: 1em;
+    line-height: 1.35em;
+    color: #494949;
+    text-align: left;
+}
+.txt {
+    display: table-cell;
+    vertical-align: top;
+    width: 40px;
+    margin-top: 3px;
+}
+.detail_list em {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    background: #494949b3;
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 0.03em;
+    border-radius: 30px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "s-core-dream-medium", sans-serif;
+}
+.recipe_product {
+    position: relative;
+    width: 900px;
+    margin: 0px auto 60px;
+}
+.product_tit {
+    display: block;
+    vertical-align: top;
+    margin-top: 15px;
+    color: #454545;
+    line-height: 1.5em;
+    font-weight: normal;
+    letter-spacing: 0.03em;
+    font-family: 'S-CoreDream-3Light';
+}
+.list_box {
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+.list {
+    overflow: hidden;
+    display: inline-block;
+}
+.product_box {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    border-radius: 8px;
+}
+.img_box {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    border-radius: 8px;
+}
+.img_box img {
+    width: 198px;
+    height: 198px;
+    border: none;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.p_name_box {
+    position: relative;
+    display: block;
+    font-weight: normal;
+    height: 192px;
+    text-align: left;
+    padding: 18px 10px 0px 0px;
+}
+.p_name{
+    overflow: hidden;
+    display: block;
+    width: 200px;
+    color: #404040;
+    padding: 0px 0px 5px;
+    font-size: 15px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+.btn_list a {
+    overflow: hidden;
+    display: block;
+    background: #208d5c;
+    width: 200px;
+    margin: 100px auto 0px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'S-CoreDream-3Light';
+}
+
+
+
+
+
+
+

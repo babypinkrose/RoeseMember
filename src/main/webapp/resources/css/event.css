@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 밑줄 없애기 */
+text-a{
+decoration: none;
+}
+ul {
+    /* 디스크 없애기 */
+    list-style-type: none;
+}
+/* ---------------------------------------------------------- 헤드 ---------------------------------------------------------- */
+header {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 300px;
+    position: relative;
+    font-family: 'S-CoreDream-3Light';
+}
+
+#topmenu {
+    height: 30px;
+    padding-top: 6px;
+    padding-left: 20px;
+    background-color: #eee;
+}
+a:link, a:visited {
+    color: #222;
+    text-decoration: none;
+}
+#topmenu li{
+    border-right: 1px solid #999;
+    float: right;
+}
+#topmenu li:first-child{
+    border: none;
+    padding-right: 250px;
+}
+#topmenu > li > a{
+    display: block;
+    padding: 0px 20px 0px 20px;
+    font-size: 11px;
+}
+#mainLogo {
+    width: 100%;
+}
+#logo li{
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myCart{
+    float: left;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; */
+    padding: 220px 0 0 20px;
+}
+
+/* ---------------------------------------------------------- 네브 ---------------------------------------------------------- */
+nav {
+    width: 1920px;
+    height: 50px;
+    margin: 0;
+    font-family: 'S-CoreDream-3Light';
+}
+#mainCategory {
+    width: 150px;
+    padding: 14px 0;
+    font-size : 16px;
+    font-weight: bolder;
+    float: left;
+    text-align: center;
+    background-color: #208d5c;
+}
+#All {
+    color: #fff;
+    
+}
+
+#category_row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+#category_row li {
+    width: 150px;
+    padding: 14px 0;
+    font-size : 16px;
+    font-weight: bolder;
+    float: left;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------- 푸터 ---------------------------------------------------------- */
+#eventAd {
+    position : relative;
+    transform : translateY(-100%);
+    height: 131px;
+    border-bottom: 1px solid #222;
+}
+#eventAd a {
+    margin: 0;
+    padding: 0;
+}
+/* 푸터 하단고정 */
+#wrap{
+    height: 1900px;
+	min-height: 100%;
+	position: relative;
+}
+footer{
+    background-color: #eee;
+	bottom: 0;
+	position: absolute;
+	height: 380px;
+    font-family: 'S-CoreDream-3Light';
+}
+
+footer li {
+    line-height: 30px;
+    float: left;
+    padding: 29px 100px;
+    color: #aaa;
+}
+footer li h1{
+    color: black;
+}
+
+footer img {
+    border-bottom: 1px solid #999;
+}
+/* ----------------------------------------------------마이페이지 시작---------------------------------------------------------- */
+body {
+    width: 1920px;
+    margin: 0 auto;
+    font-family: 'S-CoreDream-3Light';
+}
+#event_container {
+    padding-top: 100px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.event_box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+.event_box img{
+    padding: 10px;
+}

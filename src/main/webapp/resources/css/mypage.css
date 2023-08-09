@@ -1,0 +1,701 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 밑줄 없애기 */
+text-a{
+decoration: none;
+}
+ul {
+    /* 디스크 없애기 */
+    list-style-type: none;
+}
+/* ---------------------------------------------------------- 헤드 ---------------------------------------------------------- */
+header {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 300px;
+    position: relative;
+    font-family: 'S-CoreDream-3Light';
+}
+
+#topmenu {
+    height: 30px;
+    padding-top: 6px;
+    padding-left: 20px;
+    background-color: #eee;
+}
+a:link, a:visited {
+    color: #222;
+    text-decoration: none;
+}
+#topmenu li{
+    border-right: 1px solid #999;
+    float: right;
+}
+#topmenu li:first-child{
+    border: none;
+    padding-right: 250px;
+}
+#topmenu > li > a{
+    display: block;
+    padding: 0px 20px 0px 20px;
+    font-size: 11px;
+}
+#mainLogo {
+    width: 100%;
+}
+
+#logo li{
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myCart{
+    float: left;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; */
+    padding: 220px 0 0 20px;
+}
+
+/* ---------------------------------------------------------- 네브 ---------------------------------------------------------- */
+nav {
+    width: 1920px;
+    height: 50px;
+    margin: 0;
+    font-family: 'S-CoreDream-3Light';
+}
+#mainCategory {
+    width: 150px;
+    padding: 14px 0;
+    font-size : 16px;
+    font-weight: bolder;
+    float: left;
+    text-align: center;
+    background-color: #208d5c;
+}
+#All {
+    color: #fff;
+}
+
+#category_row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+#category_row li {
+    width: 150px;
+    padding: 14px 0;
+    font-size : 16px;
+    font-weight: bolder;
+    float: left;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------- 푸터 ---------------------------------------------------------- */
+#eventAd {
+    position : relative;
+    transform : translateY(-100%);
+    height: 131px;
+    border-bottom: 1px solid #222;
+}
+#eventAd a {
+    margin: 0;
+    padding: 0;
+}
+/* 푸터 하단고정 */
+#wrap{
+    height: 1900px;
+	min-height: 100%;
+	position: relative;
+}
+footer{
+    background-color: #eee;
+	bottom: 0;
+	position: absolute;
+	height: 380px;
+    font-family: 'S-CoreDream-3Light';
+}
+
+footer li {
+    line-height: 30px;
+    float: left;
+    padding: 29px 100px;
+    color: #aaa;
+}
+footer li h1{
+    color: black;
+}
+
+footer img {
+    border-bottom: 1px solid #999;
+}
+/* ----------------------------------------------------마이페이지 시작---------------------------------------------------------- */
+body {
+    width: 1920px;
+    margin: 0 auto;
+    font-family: 'S-CoreDream-3Light';
+}
+#my_container {
+    width: 1200px;
+    padding: 0 0 70px 0;
+    margin: 0 auto;
+    font-family: 'S-CoreDream-3Light';
+}
+#my_container2 {
+    position: relative;
+    overflow: hidden;
+}
+#my_left {
+    float: left;
+    width: 150px;
+    background: none;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+    border-left: 0px solid #ddd;
+    font-family: 'S-CoreDream-3Light';
+}
+#my_menu {
+    position: relative;
+    border: 1px solid #c3c3c3;
+    font-family: 'S-CoreDream-3Light';
+}
+#my_menu_p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -1px;
+    background: #208d5c;
+    margin: -1px -1px 0 -1px;
+    font-family: 'S-CoreDream-3Light';
+}
+#my_menu_p a {
+    display: block;
+    background: none;
+    color: #fff;
+    padding: 50px 0;
+    font-family: 'S-CoreDream-3Light';
+}
+.my_menu_box {
+    position: relative;
+    margin: 15px 8px;
+    padding: 0 0 15px 5px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.my_menu_box li {
+    display: block;
+    color: #666;
+    font-size: 13px;
+    line-height: 2.2em;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+.my_menu_box li.my_menu_m1 {
+    color: #222;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: -2px;
+}
+.on {
+    position: relative;
+    color: #208d5c;
+    font-weight: bold;
+    cursor: pointer;
+}
+.my_menu_box.last {
+    border-bottom: 0px solid #eaeaea;
+}
+.my_right {
+    margin-left: 30px;
+    float: right;
+    width: 1000px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    background: none;
+}
+#my_info_box {
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    background: #fdfdfd;
+    border: 5px solid #757e86;
+    box-sizing: border-box;
+}
+#my_info {
+    display: table;
+    width: 100%;
+}
+#my_info li {
+    overflow: hidden;
+    width: 20%;
+    position: relative;
+    display: table-cell;
+    height: 114px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 30px;
+    border-right: 1px solid #ddd;
+}
+.my_info_txt {
+    font-size: 14px;
+    font-family: 'S-CoreDream-3Light';
+    color: #777;
+    font-weight: 700;
+    margin: 4px 0 8px 0;
+}
+em {
+    font-style: normal;
+}
+.my_info_num em a {
+    position: relative;
+    font-size: 22px;
+    font-family: 'S-CoreDream-3Light';
+    color: #208d5c;
+    font-weight: bold;
+    cursor: pointer;
+}
+.my_info_num em a span.line {
+    display: block;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #208d5c;
+}
+.my_info_num span {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'S-CoreDream-3Light';
+    color: #222;
+}
+#my_top_wrap {
+    position: relative;
+    background: #fff;
+    margin-top: 20px;
+}
+h2 {
+    position: absolute;
+    overflow: hidden;
+    width: 0px;
+    height: 0px;
+}
+#my_top_new {
+    position: relative;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+#my_top_title {
+    position: relative;
+    top: 2px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #161616;
+    letter-spacing: -1px;
+    display: inline-block;
+    height: 31px;
+}
+#my_time_wrap {
+    background: #fff;
+    position: absolute;
+    top: 11px;
+    right: 0px;
+    text-align: center;
+    font-size: 17px;
+    color: #666;
+    font-weight: 700;
+    line-height: 1.7;
+}
+#my_time {
+    float: right;
+    position: relative;
+    display: inline-block;
+    border-top: 0px solid #ccc;
+    text-align: center;
+}
+#my_time li {
+    display: table-cell;
+    vertical-align: top;
+    width: 60px;
+    border-right: 0px solid #d7d7d7;
+}
+#my_time a {
+    display: block;
+    margin: 8px 2px;
+    padding: 7px 0;
+    background: #f4f4f4;
+    border: 1px solid #d2d2d2;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 17px;
+    color: #6b6a74;
+    vertical-align: middle;
+}
+#my_time_on .my_time_a {
+    padding: 7px 0;
+    background: #8e9299;
+    border: 1px solid #787a82;
+    color: #fff;
+    font-weight: bold;
+}
+.my_time_aa {
+    display: block;
+    margin: 8px 2px;
+    width: 72px;
+    padding: 7px 0;
+    background: #f4f4f4;
+    border: 1px solid #d2d2d2;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 17px;
+    color: #6b6a74;
+    vertical-align: middle;
+}
+#listno_tap {
+    background: #fff;
+    padding: 30px 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+}
+
+/* ----------------------------------------------------내정보 수정 시작---------------------------------------------------------- */
+
+.mem_right {
+    margin-left: 30px;
+    float: right;
+    width: 1000px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    background: none;
+}
+
+.mem_top_wrap {
+    position: relative;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.mem_top_new {
+    position: relative;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+
+.mem_title {
+    position: relative;
+    top: 2px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #161616;
+    letter-spacing: -1px;
+    display: inline-block;
+    height: 31px;
+}
+
+.btn_mems_out {
+    position: absolute;
+    right: 10px;
+    bottom: 23px;
+    text-align: right;
+    font-size: 1.2em;
+    color: #666;
+    text-decoration: underline;
+}
+
+.mem_top_tbl_w {
+    border: 1px solid #cbcbcb;
+    margin-bottom: 30px;
+}
+
+.mem_top_tbl {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.mem_ipt {
+    width: 70%;
+    height: 35px;
+    padding-left: 11px;
+    line-height: 35px;
+    background: #f9f9f9;
+    border: 1px solid #d6d6d6;
+    color: #7e7e7e;
+    font-size: 13px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.mem_top_tbl tbody th:first-child {
+    border-top: none;
+    border-left: none !important;
+}
+
+.mem_top_tbl .b_line {
+    border-bottom: 1px solid #dadada;
+}
+
+.mem_top_tbl td.num_l {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+
+.mem_top_tbl tbody th:first-child {
+    border-top: none;
+    border-left: none !important;
+}
+.mem_top_tbl .b_line {
+    border-bottom: 1px solid #dadada;
+}
+.mem_top_tbl th {
+    color: #444343;
+    font-size: 13px;
+    background: #f5f5f5;
+    padding: 10px 0;
+    text-align: center;
+    line-height: 1.4;
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+}
+
+.mem_top_tbl td {
+    font-size: 14px;
+    padding: 15px 0;
+    text-align: center;
+    border-right: 0px solid #dadada;
+    vertical-align: middle;
+}
+
+table, th, td {
+    border: medium none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+element.style {
+    width: 25%;
+}
+
+.btn_hp_add {
+    display: inline-block;
+    margin-left: 10px;
+    width: 100px;
+    padding: 9.5px 0px;
+    border: 2px solid #208d5c;
+    color: #208d5c;
+    text-align: center;
+}
+
+.agreement_wrap {
+    position: relative;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.fs13 {
+    font-size: 13px;
+}
+.fc333 {
+    color: #333;
+}
+
+.ml-4 {
+    margin-left: -4px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+.pt5 {
+    padding-top: 5px;
+}
+
+.agrees_ws {
+    display: block;
+    width: 750px;
+}
+
+.agrees {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 1.13em;
+    text-align: left;
+    vertical-align: top;
+    color: #333;
+    letter-spacing: -0.05em;
+    font-weight: 500;
+}
+
+.agree_txt {
+    color: #000;
+    margin-left: 5px;
+}
+
+.mem_top_tbl td span {
+    color: #3ea6d2;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tbl_mem_noti {
+    width: 100%;
+    background: #fff;
+    border-left: 1px solid #d3d3d3;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    margin-top: 10px;
+    font-family: 'Noto Sans',sans-serif !important;
+}
+
+col {
+    display: table-column;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+colgroup {
+    display: table-column-group;
+}
+
+.mem_top_tbl tbody th:first-child {
+    border-top: none;
+    border-left: none !important;
+
+}
+
+.tbl_mem_noti th.mem_info_noti_th {
+    height: 15px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    font-size: 1.1em;
+    color: #333;
+    line-height: 15px;
+    font-weight: normal;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tbl_mem_noti td {
+    background: #fff;
+    padding: 8px 30px;
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    color: #666;
+    line-height: 1.5;
+    font-size: 1em;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.mem_top_tbl tbody td:first-child {
+    border-top: none;
+    border-left: none !important;
+}
+
+.mt-30 {
+    margin-top: -30px;
+}
+
+.mem_comm_btn {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px 0px;
+}
+
+.mem_comm_btn ul {
+    display: inline-table;
+}
+
+.mem_comm_btn li {
+    display: inline-table;
+    vertical-align: middle;
+    height: 120px;
+    z-index: 100;
+}
+
+.mem_comm_btn a.on {
+    border: 1px solid #208d5c;
+    background: #208d5c;
+    height: 50px;
+    width: 230px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Noto Sans',sans-serif;
+}
+
+.mem_comm_btn a {
+    display: inline-block;
+    margin: 40px 5px;
+    background: #565656;
+    border: 1px solid #565656;
+    height: 50px;
+    width: 230px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Noto Sans',sans-serif;
+}
+
+table, th, td {
+	font-family: 'Noto sans',sans-serif;
+    font-size: 12px;
+    border: medium none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
